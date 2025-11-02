@@ -116,6 +116,71 @@ Banking_Analytics_Excel_PowerBi_Sql_Tableau/
 |  | High-Risk Transactions | ₹36M flagged monthly |
 |  | Suspicious Activity Cases | ~5,000 flagged per month |
 
+
+# 📊 Banking & Transaction Analytics Dashboards
+
+## 🏦 1️⃣ Banking Dashboard (Tableau / Power BI / Excel)
+
+**Focus:** Loan portfolio, client metrics, and branch performance.  
+**KPIs:**  
+- Total Clients  
+- Loan Disbursed  
+- Principal Recovery Rate  
+
+**Visuals Included:**  
+- Loan Distribution by Branch  
+- Repayment Behavior Split  
+- Loan Disbursement Trend  
+
+### 🖼️ Dashboard Preview
+#### 🔹 Banking Dashboard (Power BI)
+![Banking Dashboard - Power BI](images/Banking_Dashboard_PowerBI.png)
+
+#### 🔹 Bank Analysis Dashboard (Tableau)
+![Bank Analysis Dashboard - Tableau](images/Bank_Analysis_Tableau.png)
+
+#### 🔹 Bank Analysis Dashboard (Excel)
+![Bank Analysis Dashboard - Excel](images/Bank_Analysis_Excel.png)
+
+---
+
+## 💳 2️⃣ Debit & Credit Dashboard (Power BI / Excel)
+
+**Focus:** Transaction activity and risk analysis.  
+**KPIs:**  
+- Credit-to-Debit Ratio  
+- Suspicious Transactions  
+- Net Flow  
+
+**Visuals Included:**  
+- Credit vs. Debit Split  
+- High-Risk Transaction Frequency  
+- Transaction Mode Breakdown  
+
+### 🖼️ Dashboard Preview
+#### 🔹 Bank Credit & Debit Dashboard (Power BI)
+![Bank Credit & Debit Dashboard - Power BI](images/Bank_Credit_Debit_PowerBI.png)
+
+#### 🔹 Debit Credit Dashboard (Excel)
+![Debit Credit Dashboard - Excel](images/Debit_Credit_Excel.png)
+
+---
+
+## 🧠 SQL Queries (Bank Analytics)
+#### 🔹 SQL Query Preview
+![SQL Queries - Bank Analytics](images/SQL_Queries_Bank_Analytics.png)
+
+---
+
+## 📘 About
+These dashboards provide deep insights into **banking operations**, **loan management**, and **transaction risk analysis**.  
+They are designed for decision-makers to track **branch performance**, **credit-debit ratios**, and **repayment behaviors** in real time.
+
+---
+
+## 📂 File Structure
+
+
 ---
 
 ### 🔹 Business Insights
