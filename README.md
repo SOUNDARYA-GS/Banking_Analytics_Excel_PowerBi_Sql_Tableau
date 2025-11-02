@@ -1,6 +1,6 @@
 # 🏦 Banking_Analytics_Excel_PowerBi_Sql_Tableau
 
-Analyzing **Banking Operations** data to track client activity, loan performance, and transaction behavior — providing key performance indicators (KPIs) and actionable insights for lending, collections, and branch operations through **Tableau**, **Power BI**, and **Excel** dashboards.
+Analyzing Banking Operations data to track client activity, loan performance, and transaction behavior — providing key performance indicators (KPIs) and actionable insights for lending, collections, and branch operations through Tableau, Power BI, and Excel dashboards.
 
 ---
 
@@ -12,8 +12,8 @@ Analyzing **Banking Operations** data to track client activity, loan performance
 - [Project Structure](#-project-structure)
 - [Data Preparation & SQL](#-data-preparation--sql)
 - [Key Insights & Findings](#-key-insights--findings)
-- [Challenges Faced](#-challenges-faced)
 - [Dashboard Overview](#-dashboard-overview)
+- [Challenges Faced](#-challenges-faced)
 - [How to Run This Project](#-how-to-run-this-project)
 - [Final Recommendations](#-final-recommendations)
 - [Author & Contact](#-author--contact)
@@ -21,15 +21,18 @@ Analyzing **Banking Operations** data to track client activity, loan performance
 ---
 
 ## 🔎 Overview
-This project delivers a comprehensive analytical solution for **core banking operations** — focusing on **loan portfolio performance**, **client retention**, **repayment behavior**, and **transaction monitoring**.
 
-Interactive dashboards built in **Excel**, **Tableau**, and **Power BI** provide a unified, data-driven view of critical banking metrics.  
-These dashboards empower teams to make faster, evidence-based decisions on lending, collections, and branch management, while also highlighting **risk areas** and **growth opportunities**.
+This project delivers a comprehensive analytical solution for core banking operations — focusing on **loan portfolio performance, client retention, repayment behavior, and transaction monitoring**.
+
+Interactive dashboards built in **Excel**, **Tableau**, and **Power BI** provide a unified, data-driven view of critical banking metrics.
+
+These dashboards empower teams to make faster, evidence-based decisions on lending, collections, and branch management, while also highlighting **risk areas and growth opportunities**.
 
 ---
 
 ## ❗ Business Problem
-Modern banks face challenges in maintaining visibility across operations, loan quality, and transaction security — all of which are essential for **risk mitigation** and **strategic growth**.
+
+Modern banks face challenges in maintaining visibility across operations, loan quality, and transaction security — all of which are essential for **risk mitigation and strategic growth**.
 
 This project addresses key questions such as:
 - What is the current health of the loan portfolio in terms of recovery and repayment rates?
@@ -40,19 +43,20 @@ This project addresses key questions such as:
 ---
 
 ## 💾 Dataset
+
 **Source:** Consolidated Banking Operations data covering Client, Loan, Repayment, and Transaction records.  
 **Format:** Excel datasets merged and processed using **MySQL** for analysis and dashboard integration.
 
-### Key Variables Tracked:
+### Key Variables Tracked
 - Client ID, Branch Name  
 - Loan Amount Disbursed, Funded Amount  
 - Disbursement Date, Repayment Status (On-Time, Late, Default)  
 - Total Credit Amount, Total Debit Amount  
 - Transaction Date, Transaction Method  
-- Suspicious Transaction Flag, Risk Score
+- Suspicious Transaction Flag, Risk Score  
 
-### Data Preparation:
-- Data cleaning, standardization, and aggregation in **MySQL**  
+### Data Preparation
+- Data cleaning, standardization, and aggregation in **MySQL**
 - Calculated key metrics including:
   - Client Retention Rate  
   - Principal Recovery Rate  
@@ -65,10 +69,10 @@ This project addresses key questions such as:
 
 | Category | Tool | Purpose |
 |-----------|------|----------|
-| Database | **MySQL** | Data cleaning, transformation, aggregation, and KPI computation (e.g., Total Clients, Loan Amounts, Credit/Debit Ratios). |
-| Visualization | **Tableau** | Interactive Banking Dashboard — focusing on loan performance, branch distribution, and client retention. |
-| Visualization | **Power BI** | Dynamic Debit & Credit Dashboard — visualizing transaction trends, ratios, and risk metrics. |
-| Reporting | **Excel** | Quick KPI summaries, data validation, and static dashboard creation. |
+| Database | MySQL | Data cleaning, transformation, aggregation, and KPI computation (e.g., Total Clients, Loan Amounts, Credit/Debit Ratios). |
+| Visualization | Tableau | Interactive Banking Dashboard — focusing on loan performance, branch distribution, and client retention. |
+| Visualization | Power BI | Dynamic Debit & Credit Dashboard — visualizing transaction trends, ratios, and risk metrics. |
+| Reporting | Excel | Quick KPI summaries, data validation, and static dashboard creation. |
 
 ---
 
@@ -96,8 +100,14 @@ Banking_Analytics_Excel_PowerBi_Sql_Tableau/
 
 ---
 
+
+---
+
 ## 🧹 Data Preparation & SQL
-**MySQL** was used for all key computations and transformations after merging multiple raw Excel datasets.
+
+MySQL was used for all key computations and transformations after merging multiple raw Excel datasets.
+
+---
 
 ## ❓ Key Insights & Findings
 
@@ -106,127 +116,97 @@ Banking_Analytics_Excel_PowerBi_Sql_Tableau/
 | Dashboard | KPI | Result |
 |------------|-----|---------|
 | **Banking Dashboard** | Total Clients | 65K+ total clients |
-|  | Active Clients | 36K+ active clients |
-|  | Total Loan Disbursed | ₹713.5M total |
-|  | Principal Recovery | 87% principal recovery |
-|  | On-Time Repayments | 72% repayment punctuality |
+| | Active Clients | 36K+ active clients |
+| | Total Loan Disbursed | ₹713.5M total |
+| | Principal Recovery | 87% principal recovery |
+| | On-Time Repayments | 72% repayment punctuality |
 | **Debit & Credit Dashboard** | Total Credit Amount | ₹128M |
-|  | Total Debit Amount | ₹127M |
-|  | Net Financial Flow | +₹318K |
-|  | High-Risk Transactions | ₹36M flagged monthly |
-|  | Suspicious Activity Cases | ~5,000 flagged per month |
+| | Total Debit Amount | ₹127M |
+| | Net Financial Flow | +₹318K |
+| | High-Risk Transactions | ₹36M flagged monthly |
+| | Suspicious Activity Cases | ~5,000 flagged per month |
 
+---
 
-# 📊 Banking & Transaction Analytics Dashboards
+## 📊 Dashboard Overview
 
-## 🏦 1️⃣ Banking Dashboard (Tableau / Power BI / Excel)
-
+### 🏦 1️⃣ Banking Dashboard (Tableau / Power BI / Excel)
 **Focus:** Loan portfolio, client metrics, and branch performance.  
-**KPIs:**  
+
+**KPIs:**
 - Total Clients  
 - Loan Disbursed  
 - Principal Recovery Rate  
 
-**Visuals Included:**  
+**Visuals Included:**
 - Loan Distribution by Branch  
 - Repayment Behavior Split  
 - Loan Disbursement Trend  
 
 ### 🖼️ Dashboard Preview
-#### 🔹 Banking Dashboard (Power BI)
-![Banking Dashboard - Power BI](images/Banking_Dashboard_PowerBI.png)
 
-#### 🔹 Bank Analysis Dashboard (Tableau)
-![Bank Analysis Dashboard - Tableau](images/Bank_Analysis_Tableau.png)
+**🔹 Banking Dashboard (Power BI)**  
+![Banking Dashboard - Power BI](Banking%20Dashboard%20image_Power%20Bi.png)
 
-#### 🔹 Bank Analysis Dashboard (Excel)
-![Bank Analysis Dashboard - Excel](images/Bank_Analysis_Excel.png)
+**🔹 Bank Analysis Dashboard (Tableau)**  
+![Bank Analysis Dashboard - Tableau](Bank%20Analysis%20Dashboard%20image_Tableau.png)
+
+**🔹 Bank Analysis Dashboard (Excel)**  
+![Bank Analysis Dashboard - Excel](Bank%20Analysis%20Dashboard%20image_Excel.png)
 
 ---
 
-## 💳 2️⃣ Debit & Credit Dashboard (Power BI / Excel)
-
+### 💳 2️⃣ Debit & Credit Dashboard (Power BI / Excel)
 **Focus:** Transaction activity and risk analysis.  
-**KPIs:**  
+
+**KPIs:**
 - Credit-to-Debit Ratio  
 - Suspicious Transactions  
 - Net Flow  
 
-**Visuals Included:**  
+**Visuals Included:**
 - Credit vs. Debit Split  
 - High-Risk Transaction Frequency  
 - Transaction Mode Breakdown  
 
 ### 🖼️ Dashboard Preview
-#### 🔹 Bank Credit & Debit Dashboard (Power BI)
-![Bank Credit & Debit Dashboard - Power BI](images/Bank_Credit_Debit_PowerBI.png)
 
-#### 🔹 Debit Credit Dashboard (Excel)
-![Debit Credit Dashboard - Excel](images/Debit_Credit_Excel.png)
+**🔹 Bank Credit & Debit Dashboard (Power BI)**  
+![Bank Credit & Debit Dashboard - Power BI](Bank%20Credit%20and%20Debit%20Dashboard%20image_Power%20Bi.png)
 
----
-
-## 🧠 SQL Queries (Bank Analytics)
-#### 🔹 SQL Query Preview
-![SQL Queries - Bank Analytics](images/SQL_Queries_Bank_Analytics.png)
+**🔹 Debit Credit Dashboard (Excel)**  
+![Debit Credit Dashboard - Excel](Debit%20Credit%20Dashboard%20image_Excel.png)
 
 ---
 
-## 📘 About
-These dashboards provide deep insights into **banking operations**, **loan management**, and **transaction risk analysis**.  
-They are designed for decision-makers to track **branch performance**, **credit-debit ratios**, and **repayment behaviors** in real time.
+### 🧠 SQL Queries (Bank Analytics)
+**🔹 SQL Query Preview**  
+![SQL Queries - Bank Analytics](Sql%20Queries%20image_%20Bank%20analytics.png)
 
 ---
 
-## 📂 File Structure
-
-
----
-
-### 🔹 Business Insights
+## 🔍 Business Insights
 
 - **Client Growth:** Steady increase in both new and active clients, signaling strong acquisition but room for improved retention.  
 - **Repayment Risk:** While recovery rate stands at 87%, delayed repayments remain a profitability concern.  
 - **Branch Performance:** 176-DBS, Dhuri, and Mathura branches outperform others — offering best-practice benchmarks.  
 - **Financial Stability:** Balanced Credit-to-Debit ratio and positive net flow (+₹318K) confirm sound operations.  
-- **Fraud & Risk:** 5K suspicious transactions/month highlight a need for automated fraud monitoring.  
+- **Fraud & Risk:** 5K suspicious transactions/month highlight a need for automated fraud monitoring.
 
 ---
 
-### ⚠️ Challenges Faced
+## ⚠️ Challenges Faced
 
 | Challenge Area | Description |
 |----------------|-------------|
-| **Data Integration** | Combining multiple Excel sources into SQL with consistent schema and accurate joins. |
-| **Branch Performance Gaps** | Significant variation across branch metrics made benchmarking complex. |
-| **Repayment Risk** | Managing delayed and defaulted loans without impacting customer trust. |
-| **Fraud Detection** | Continuous increase in flagged high-risk transactions required advanced tracking. |
+| Data Integration | Combining multiple Excel sources into SQL with consistent schema and accurate joins. |
+| Branch Performance Gaps | Significant variation across branch metrics made benchmarking complex. |
+| Repayment Risk | Managing delayed and defaulted loans without impacting customer trust. |
+| Fraud Detection | Continuous increase in flagged high-risk transactions required advanced tracking. |
 
 ---
 
-### 📊 Dashboard Overview
-
-#### 1️⃣ Banking Dashboard (Tableau / Power BI / Excel)
-**Focus:** Loan portfolio, client metrics, branch performance.  
-**KPIs:** Total Clients, Loan Disbursed, Principal Recovery Rate.  
-
-**Visuals:**
-- Loan Distribution by Branch  
-- Repayment Behavior Split  
-- Loan Disbursement Trend  
-
-#### 2️⃣ Debit & Credit Dashboard (Power BI / Excel)
-**Focus:** Transaction activity and risk analysis.  
-**KPIs:** Credit-to-Debit Ratio, Suspicious Transactions, Net Flow.  
-
-**Visuals:**
-- Credit vs. Debit Split  
-- High-Risk Transaction Frequency  
-- Transaction Mode Breakdown  
-
----
-
-### ▶ How to Run This Project
+## ▶ How to Run This Project
 
 1. **Database Setup:**  
    Load the cleaned DBS Banking dataset into MySQL.
@@ -237,27 +217,30 @@ They are designed for decision-makers to track **branch performance**, **credit-
 3. **Open Dashboards:**  
    - **Tableau:** Open `.twbx` files for the Banking Dashboard  
    - **Power BI:** Open `.pbix` files for the Debit & Credit Dashboard  
-   - **Excel:** Open `.xlsx` dashboards for static views and quick summaries  
+   - **Excel:** Open `.xlsx` dashboards for static views and quick summaries
 
 4. **Explore Interactivity:**  
-   Use filters such as *Branch*, *Date Range*, and *Product Type* to explore insights dynamically.
+   Use filters such as **Branch**, **Date Range**, and **Product Type** to explore insights dynamically.
 
 ---
 
-### ✅ Final Recommendations
+## ✅ Final Recommendations
 
 - **Fraud Automation:** Implement automated detection and alerting for the 5,000+ monthly suspicious cases.  
 - **Operational Excellence:** Replicate successful strategies from top-performing branches (176-DBS, Dhuri, Mathura).  
 - **Collections Strategy:** Strengthen follow-up mechanisms for delayed loans to improve recovery beyond 87%.  
 - **Client Retention:** Launch data-driven campaigns to sustain active client growth.  
-- **Data Governance:** Standardize reporting frequency and ensure consistent KPI definitions across dashboards.  
+- **Data Governance:** Standardize reporting frequency and ensure consistent KPI definitions across dashboards.
 
 ---
 
-### 👤 Author & Contact
+## 👤 Author & Contact
 
 **Soundarya G S**  
 *Business/Data Analyst*  
 
 📧 **Email:** [soundaryags948@gmail.com](mailto:soundaryags948@gmail.com)  
 🔗 **LinkedIn:** [linkedin.com/in/soundarya-g-s](https://linkedin.com/in/soundarya-g-s)
+
+
+
